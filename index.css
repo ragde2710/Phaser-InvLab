@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+* {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+body {
+    background-image: url("./assets/background.jpg"); 
+    background-size: cover;
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 120px;
+}
+
+.navbar h1 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: rgb(173, 184, 156);
+    text-shadow: 3px 3px 20px #110f10,
+    -2px 1px 30px #e4ff99;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 26px;
+    place-content: center;
+    margin-top: 5%;
+}
+
+.box {
+    width: 300px;
+    height: 180px ;
+    box-shadow: 3px -2px 48px -10px #B4B4B4;
+}
+.box h1,p {
+    color:rgb(173, 184, 156);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: 4px 4px 0px #000, 
+    -4px 0 0px rgba(0, 0, 0, 0.568),
+    7px 4px 0 rgba(255, 255, 255, 0.062);
+}
+.box p {
+    margin-top: 30px;
+    font-size: 1rem;
+}
+.box:hover {
+    -webkit-box-shadow: inset 0px 0px 38px 7px rgba(180,180,180,0.36); 
+    box-shadow: inset 0px 0px 38px 7px rgba(180,180,180,0.36);
+}
