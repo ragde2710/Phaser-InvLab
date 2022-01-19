@@ -1,0 +1,37 @@
+.content {
+    width: 80%;
+    margin-left: 10%;
+    height: 100vh;
+    background-color: #f5f5f552;
+}
+.content h1 {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-left: 20px;
+    color: #000000b7;
+}
+
+.content p {
+    text-align: left;
+    padding: 3px;
+    margin-left: 40px;
+    color: #000000ad;
+    margin-bottom: 30px;
+}
+
+.content-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content-columns ul{
+    margin-left: 40px;
+}
+.content-columns li{
+    list-style: none;
+    margin-bottom: 20px;
+    color: #000000ad;
+}
+.content-basic-concepts a{
+    color: #586410;
+}

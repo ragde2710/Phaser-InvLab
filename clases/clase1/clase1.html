@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que es Phaser?</title>
+    <link rel="icon" href="../../assets/phaser.ico" />
+    <link rel="stylesheet" href="../../navbar.css">
+    <link rel="stylesheet" href="./clase1.css">
+    <link rel="stylesheet" href="../../main.css">
+
+</head>
+
+<body>
+    <nav class="topnav">
+        <a class="active" href="../../index.html">Home</a>
+    </nav>
+    <section class="content">
+        <h1>¿Qué es Phaser 3?</h1>
+        <p>Phaser 3 es una herramienta de programación, más concretamente, una librería Javascript, creada por Richard
+            Davey, destinada a desarrollar juegos de una forma rápida para navegadores web, válida tanto para versiones
+            de escritorio como móvil, y pueden ser compilados para usarlos y publicarlos como aplicación móvil. El juego
+            se carga en un Canvas o en WebGL.</p>
+        <p>Canvas es un elemento HTML que es utilizado para dibujar gráficos, hacer composiciones de fotos o incluso
+            realizar animaciones.</p>\
+        <p>WebGL es una evolución de Canvas que permite cargar gráficos 3D.</p>
+        <div class="content-columns">
+            <div class="content-basic-concepts">
+                <h1>Conceptos básicos</h1>
+                <p>Antes de comenzar, pasamos a definir una serie de conceptos generales básicos que se tienen que
+                    conocer sobre la programación de videojuegos:</p>
+                <ul>
+                    <li>
+                        <b>Game Object: </b> Es la clase base que se extiende a todos los Objetos del juego.
+                    </li>
+                    <li>
+                        <b>Game Loop: </b> Casi todos los juegos corren bajo un bucle infinito capaz de detectar los
+                        eventos y
+                        cambios
+                        que se producen en el juego.
+                    </li>
+                    <li>
+                        <b>Escena: </b> Un juego en Phaser 3 está compuesto por diferentes escenas, donde cada una tiene
+                        su
+                        propia
+                        lógica del juego. El juego irá cambiando de escenas según una serie de condicionantes.
+                    </li>
+                    <li>
+                        <b>Sprite: </b> Simplemente es una imagen, o un conjunto de imágenes agrupadas en un solo
+                        archivo. Son
+                        los
+                        personajes, enemigos, etc.
+                    </li>
+                    <li>
+                        <b>Tile Set: </b> Conjunto de imágenes, separadas por cuadrículas, que forman los objetos del
+                        juego, el
+                        fondo,
+                        el mapa, etc.
+                    </li>
+                    <li>
+                        <b>Máscara de colisión: </b> Zona del sprite que puede colisionar con otras máscara de colisión.
+                    </li>
+                </ul>
+                <p>
+                    Toda la documentación de phaser se puede encontrar en su GitHub:
+                    <a href="">https://photonstorm.github.io/phaser3-docs/</a>
+                </p>
+
+            </div>
+            <div class="content-config">
+                <h1>Configuración del proyecto</h1>
+                <p>Lo más formal para ejecutar Phaser es tener instalado Node.js y NPM, junto con un buen editor de
+                    código, como por ejemplo "Visual Studio Code".</p>
+                <p>
+                    En él instalaremos las extensiones "Live Server" y "Code runner", para poder ejecutar el proyecto.
+                </p>
+                <p>Creamos la carpeta de nuestro proyecto y ejecutamos desde la terminal los siguientes comandos:</p>
+                <ul>
+                    <li>npm init -y (Crear el package.json)</li>
+                    <li>npm i phaser (Instalación de las dependencias phaser en el proyecto)</li>
+                    <li>npm i -g phaser3-cli-gamma (Instalación global)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
